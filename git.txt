@@ -1,0 +1,6 @@
+git init
+git status
+git add -A 
+git add .
+git commit 
+git commit -m ""
