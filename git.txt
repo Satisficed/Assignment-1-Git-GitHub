@@ -1,6 +1,33 @@
+// Personal Git Manual (In Order)
+
+// Starting a folder or repository 
 git init
+
+// Configuring After Making Git Folder
+git config --global user.name [username] # Use double-quotes for multi-word username
+git config --global user.email [email]
+git config --global core.editor “code --wait”
+git config --global core.autocrlf [option]
+
+
+// To check for unstaged files
 git status
+
+//To check previous git
+git log
+
+
+
+
+// Staging
 git add -A 
 git add .
+
+// Commiting
 git commit 
 git commit -m ""
+
+// Git Hub Setup  
+git remote add origin https://github.com/Satisficed/Assignment-1-Git-GitHub.git
+git branch -M main
+git push -u origin main
