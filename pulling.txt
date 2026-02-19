@@ -1,1 +1,8 @@
 There should be lines here but they aren't on this file
+
+
+// When updating a branch from github 
+git pull origin [branch name you want to fetch and merge with]
+
+
+// I will now attempt to fetch and merge files and these lines will prove me that I can do it.
