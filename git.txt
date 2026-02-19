@@ -1,5 +1,8 @@
 // Personal Git Manual (In Order)
 
+// Git practices 
+https://www.w3schools.com/git/git_best_practices.asp
+
 // Starting a folder or repository 
 git init
 
@@ -20,7 +23,9 @@ git log
 
 
 // Staging
+    // -A to stage all changes
 git add -A 
+    // . to 
 git add .
 
 // Commiting
@@ -29,5 +34,8 @@ git commit -m ""
 
 // Git Hub Setup  
 git remote add origin https://github.com/Satisficed/Assignment-1-Git-GitHub.git
+
+// Rename current branch
 git branch -M main
+//
 git push -u origin main
