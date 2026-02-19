@@ -1,1 +1,6 @@
-There should be lines here but they aren't on this file
+When pulling make sure vscode has a new folder selected
+Open terminal and type in:
+
+git init
+git remote add origin [URL]
+git pull origin [branch name]
