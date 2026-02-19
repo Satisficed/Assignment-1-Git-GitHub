@@ -1,6 +1,23 @@
-When pulling make sure vscode has a new folder selected
-Open terminal and type in:
+// There should be lines here. I've sucessfully merged main and SPC branches.
+
+1. When pulling make sure vscode has a new folder selected
+2. Open terminal and type in:
 
 git init
 git remote add origin [URL]
 git pull origin [branch name]
+
+3. When updating a branch from github:
+
+git pull origin [branch name you want to fetch and merge with]
+
+OR
+
+// Manually fetch and merge
+git branch [name of merging branch]
+git checkout [name of merging branch]
+git fetch [name of branch on github repo]
+git checkout [main branch or any branch you want to merge into]
+git merge [name of merging branch]
+
+// I will now attempt to fetch and merge files and these lines will prove me that I can do it.
