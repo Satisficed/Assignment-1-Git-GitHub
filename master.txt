@@ -1,0 +1,1 @@
+This txt file shall be exclusive to master branch
